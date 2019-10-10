@@ -6,6 +6,7 @@
     <meta property="og:type" content="article" />
     <meta property="og:url" content="{{ $page->getUrl() }}" />
     <meta property="og:description" content="{{ $page->description }}" />
+    <meta property="og:image" content="{{ $page->baseUrl }}/assets/images/banner-for-facebook.png">
 
 @endpush
 
