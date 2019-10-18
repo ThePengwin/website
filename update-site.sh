@@ -23,6 +23,7 @@ do
     fi
     mkdir -p $(dirname $repo/$file)
     cp $file $repo/$file
+    git add $repo/$file
 done
 
 #delete old files
