@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #build site
-#npm run production
+npm run production
 
 gen=$(cd build_production && pwd)
 repo=$(mktemp -d -t site-update-XXXXXXXXXX)
