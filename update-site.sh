@@ -21,6 +21,7 @@ do
     else
         echo -e "[\e[92mnew\e[39m] "$file
     fi
+    mkdir -p $(dirname $repo/$file)
     cp $file $repo/$file
 done
 
