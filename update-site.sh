@@ -23,7 +23,7 @@ do
     fi
     mkdir -p $(dirname $repo/$file)
     cp $file $repo/$file
-    git add $repo/$file
+    (cd $repo && git add $file)
 done
 
 #delete old files
@@ -37,7 +37,7 @@ do
     fi
 done
 
-git commit -a
+git commit
 git push
 
 rm -rf $repo
