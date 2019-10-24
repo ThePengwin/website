@@ -29,5 +29,4 @@ mix
     )
     .options({
         processCssUrls: false
-    })
-    .purgeCss();
+    });
