@@ -14,16 +14,16 @@
         "cross-env": "^3.2.3",
         "extra-watch-webpack-plugin": "^1.0.3",
         "hasbin": "^1.2.3",
-        "laravel-mix": "^4.0.0",
+        "laravel-mix": "^4.1.4",
         "node-cmd": "^3.0.0",
-        "sass": "^1.22.9",
-        "sass-loader": "^7.1.0",
+        "sass": "^1.23.1",
+        "sass-loader": "^7.3.1",
         "vue-template-compiler": "^2.6.10",
         "yargs": "^4.6.0"
     },
     "dependencies": {
-        "highlight.js": "^9.15.9",
-        "laravel-mix-purgecss": "^4.1.0",
+        "highlight.js": "^9.15.10",
+        "laravel-mix-purgecss": "^4.2.0",
         "mini.css": "^3.0.1",
         "webfonts-generator": "^0.4.0"
     }

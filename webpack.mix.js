@@ -30,9 +30,4 @@ mix
     .options({
         processCssUrls: false
     })
-    .purgeCss({
-        extensions: ['html', 'md', 'js', 'php', 'vue'],
-        folders: ['source'],
-        whitelistPatterns: [/language/, /hljs/],
-    })
-    .version();
+    .purgeCss();

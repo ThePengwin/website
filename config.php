@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => 'http://localhost:3000',
     'production' => false,
     'siteName' => 'Pengw.in',
-    'siteDescription' => 'The personal site of Articus Pengwin',
+    'siteDescription' => 'The personal site of ThePengwin',
     'siteAuthor' => 'Articus Pengwin',
     'onlineAccounts' => [
         [
