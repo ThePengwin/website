@@ -53,6 +53,8 @@ $button-inverse-back-color: $color-dark;
 $button-inverse-hover-back-color: lighten($color-dark, 10%);
 $button-inverse-fore-color: $color-white;
 
+$secondary-fore-color: $color-white;
+
 $card-fore-color: $color-white;
 $card-back-color: lighten($color-dark,10%);
 $card-border-color: transparent;
@@ -185,4 +187,16 @@ header .icon::before {
 }
 header .logo {
     line-height: 2.3rem;
+}
+.about-me-image {
+    max-width:250px;
+    margin:0 auto;
+    text-align: center;
+}
+
+
+@media screen and (min-width: $hidden-large-breakpoint - 1px) {
+    .about-me-image {
+        float:right;
+    }
 }

@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'baseUrl' => 'http://localhost:3000',
+    'baseurl' => '',
     'production' => false,
     'siteName' => 'Pengw.in',
     'siteDescription' => 'The personal site of ThePengwin',
-    'siteAuthor' => 'Articus Pengwin',
+    'siteAuthor' => 'ThePengwin',
     'onlineAccounts' => [
         [
             'url' => 'https://keybase.io/thepengwin',
@@ -46,7 +46,7 @@ return [
     // collections
     'collections' => [
         'posts' => [
-            'author' => 'Articus Pengwin', // Default author, if not provided in a post
+            'author' => 'ThePengwin', // Default author, if not provided in a post
             'sort' => '-date',
             'path' => 'blog/{filename}',
         ],

@@ -2,7 +2,7 @@ let mix = require("laravel-mix");
 let build = require("./tasks/build.js");
 let icons = require("./tasks/icons.js");
 
-require('laravel-mix-purgecss');
+//require('laravel-mix-purgecss');
 
 mix.disableSuccessNotifications();
 mix.setPublicPath("source/assets/build");
